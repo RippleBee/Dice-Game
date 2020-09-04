@@ -39,11 +39,8 @@ class _DiceGameState extends State<DiceGame> {
 
   var random1 = Random.secure();
   var random2 = Random.secure();
-  var x;
-  var y;
-  var z;
+  var x, y, z;
   var sum = 0;
-  var count;
 
   void _changeDice() {
     setState(() {
